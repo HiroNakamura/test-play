@@ -3,7 +3,7 @@ package controllers.api
 import javax.inject._
 import play.api.mvc._
 import play.api.libs.json._
-import model.{Filosofo}
+import models.{Filosofo}
  
 class FilosofoController @Inject()(
     cc: ControllerComponents
