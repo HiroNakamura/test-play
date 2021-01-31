@@ -11,7 +11,11 @@ libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
 
 //MySQL
-libraryDependencies ++= Seq( javaJdbc, javaEbean, "mysql" % "mysql-connector-java" % "5.1.29"
+//libraryDependencies ++= Seq( javaJdbc, javaEbean, "mysql" % "mysql-connector-java" % "5.1.29"
+libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.12"
+
+
+
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "org.inforhomex.controllers._"
