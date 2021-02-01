@@ -13,9 +13,10 @@ libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0
 //MySQL
 //libraryDependencies ++= Seq( javaJdbc, javaEbean, "mysql" % "mysql-connector-java" % "5.1.29"
 libraryDependencies += "mysql" % "mysql-connector-java" % "5.1.12"
-
-
-
+//MariaDB
+libraryDependencies += "org.mariadb.jdbc" % "mariadb-java-client" % "2.7.2"
+//Postgres
+libraryDependencies += "org.postgresql" % "postgresql" % "42.2.18"
 
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "org.inforhomex.controllers._"
