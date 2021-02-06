@@ -1,7 +1,7 @@
 package models
 
 
-val connection = DB.getConnection("mariadb")
+//val connection = DB.getConnection("mariadb")
 
 case class Cliente (
     id: Int,
